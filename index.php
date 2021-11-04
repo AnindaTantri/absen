@@ -4,6 +4,8 @@
     edit.php    : Updating record    (UPDATE)
     index.php   : List all record    (READ)
 -->
+
+
 <?php
 require_once "./tambah_config.php";
 ?>
@@ -20,6 +22,7 @@ require_once "./tambah_config.php";
     <body>
         <main>
             <div class="container text-center">
+            <img src="images/be.jpg">
                 <h3 class="py-3 bg-dark text-light rounded">Daftar Diklat</h3>
                 <div class="d-flex">
                     <form action="" method="post" class="w-50">
