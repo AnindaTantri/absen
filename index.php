@@ -22,7 +22,7 @@ require_once "./tambah_config.php";
     <body>
         <main>
             <div class="container text-center">
-            <img src="https://objectstorage.ap-sydney-1.oraclecloud.com/n/sdduwtrjkpfv/b/site/o/daun.jpg">
+            <img src="https://objectstorage.ap-sydney-1.oraclecloud.com/n/sdduwtrjkpfv/b/site/o/daun.jpg" width="500" height="500">
                 <h3 class="py-3 bg-dark text-light rounded">Daftar Diklat</h3>
                 <div class="d-flex">
                     <form action="" method="post" class="w-50">
