@@ -89,6 +89,10 @@ require_once "./tambah_config.php";
                                 <input type="text" placeholder="Lokasi" name="lokasi" autocomplete="off" class="form-control mb-3" id="inlineFormInputGroup">
                             </div>
                         </div>
+                        <form action="aksi.php" method="post" enctype="multipart/form-data">
+		<input type="file" name="file">
+		<input type="submit" name="upload" value="Upload">
+	</form>
                         <div class="row pt-w">
                             <div class="col float-right">
                                 <a href="./index.php" class="btn btn-danger">Batal</a>
